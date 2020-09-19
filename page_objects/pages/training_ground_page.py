@@ -1,7 +1,7 @@
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.alert import Alert
-from .base_element import *
+from .base_element import BaseElement
 
 
 class TrainingGroundPage:
