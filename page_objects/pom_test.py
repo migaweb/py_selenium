@@ -8,7 +8,7 @@ browser = webdriver.Chrome()
 
 trng_page = TrainingGroundPage(driver=browser)
 trng_page.go()
-assert trng_page.button1.text == 'Button1', f'Test failed'
+assert trng_page.button1.text == 'Button1', 'Test failed'
 print('Test passed')
 trng_page.button1.click()
 trng_page.alert_dismiss()
